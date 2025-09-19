@@ -1,0 +1,247 @@
+
+body {
+
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+  cursor: url('images/wand.png') 16 16, auto !important;
+}
+
+
+button,
+.btn,
+input,
+textarea,
+select,
+a {
+  cursor: url("images/cursor active.png") 16 16, auto !important;
+}
+
+
+.hero {
+  background-color: #f8f9fa;  
+  min-height: 60vh;
+    background: url("images/bg.jpg") no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+      text-shadow: 2px 2px 5px rgb(49, 190, 17) !important;
+}
+.bg-aboutme{
+  background-color: rgba(44, 184, 13, 0.427);
+  color: rgb(255, 255, 255);
+}
+.bg-color{
+    background-color:  rgba(244, 183, 215, 0.575);
+    color: rgb(255, 255, 255);
+}
+.bg-color-soft {
+  background-color: rgba(44, 184, 13, 0.427);
+    color: rgb(255, 255, 255);
+}
+.bg-contact {
+  background-color:  rgba(244, 183, 215, 0.575);
+    color: rgb(255, 255, 255);
+}
+.bg-projects{
+     background-color:  rgba(244, 183, 215, 0.575);
+     color: rgb(255, 255, 255);
+}
+.bg-moreaboutme {
+  background-color: rgba(44, 184, 13, 0.427);
+  padding-top: 0.5rem;  
+  padding-bottom: 0.5rem;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-top: 20px;  
+  border-radius: 20%;
+  border: 6px solid rgba(44, 184, 13, 0.619);
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.12);
+  
+}
+.skill-badge {
+  margin: 0.2rem;
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  background-color: rgba(44, 184, 13, 0.427);
+}
+.skill-badge-soft{
+  margin: 0.2rem;
+  font-size: 1rem;
+  padding: 0.6em 1em;
+  background-color: rgba(244, 183, 215, 0.575);
+}
+.project-card {
+  height: 400px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px);
+  transition: transform 0.18s, box-shadow 0.18s;
+}
+  
+.contact-card {
+  transition: transform 0.18s, box-shadow 0.18s;
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px);
+   width: 100%;       
+  height: 100%px;
+  cursor: url('images/wand.png') 16 16, auto !important;
+}
+.contact-card:hover {
+   transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.contact-links {
+  background-color: #7fc97f; /* your green shade */
+  color: white;
+  width: 100%;        /* make it full width */
+}
+
+.contact-links p {
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: white;
+}
+
+.contact-links .btn {
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+
+.contact-btn {
+  margin: 6px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s ease;
+}
+
+.contact-btn i {
+  font-size: 18px;
+}
+
+.contact-btn.linkedin { background-color: #0A66C2; }
+.contact-btn.instagram { background-color: #E1306C; }
+.contact-btn.letterboxd { background-color: #14181C; } /* black, like Letterboxd branding */
+.contact-btn.email { background-color: #6c757d; }
+
+.contact-btn:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+
+.project-card img { 
+  width: 100%; 
+  height: 220px; /* all images same size */ 
+  object-fit: cover; /* crop nicely */ 
+  border: 6px solid rgba(44, 184, 13, 0.377); 
+  border-radius: 8px; 
+  margin-bottom: 10px; 
+}
+
+.card-title{
+  color: rgb(255, 255, 255);
+}
+
+#projectModalBody {
+  text-align: justify;     
+  text-indent: 2em;        
+  font-size: 16px;      
+  line-height: 1.6;        
+  color: rgb(7, 0, 0);             
+  font-family: "Georgia", serif; 
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+.custom-btn{
+   background-color: rgba(44, 184, 13, 0.575); 
+  border: 2px solid rgba(244, 183, 215, 0.575);
+  color: rgb(239, 241, 239);
+  font-size: 10;     
+  padding: 8px 20px;       
+  border-radius: 6px;     
+  display: inline-block; 
+  width: 180px;          
+  display: block;
+  margin: 0 auto;
+  padding: 12px 24px;
+}
+.btn{
+  background-color: rgba(44, 184, 13, 0.575);
+  border: 2px solid rgba(244, 183, 215, 0.575);
+  color: rgb(239, 241, 239);
+  font-size: 10;      
+  padding: 6px 12px;      
+  border-radius: 6px;      
+  display: inline-block;  
+  width: 180px;           
+
+}
+
+.btn:hover{
+  background-color: rgba(244, 183, 215, 0.575);
+  border: 2px solid rgba(12, 0, 6, 0.575);
+}
+.btn:active {
+  background-color: white !important; 
+  color: rgba(44, 184, 13, 0.575) !important;          
+  border-color: rgba(44, 184, 13, 0.575) !important;
+}
+.btn-music {
+  background-color: rgb(244, 183, 215);
+ border:rgba(44, 184, 13, 0.575) ;
+ color:  rgb(255, 255, 255) ;
+  font-size: 10;      
+  padding: 4px 8px;      
+  border-radius: 6px;      
+  display: inline-block;  
+  width: 120px;           
+   margin-top: 10px; 
+  margin-bottom: 24px; 
+
+}
+
+.btn-music:hover{
+  background-color: rgba(44, 184, 13, 0.575);
+  border: 2px solid rgba(12, 0, 6, 0.575);
+}
+.btn-music:active {
+  background-color: white !important; 
+  color: rgba(44, 184, 13, 0.575) !important;          
+  border-color: rgba(44, 184, 13, 0.575) !important;
+}
+footer {
+  padding: 1rem 0;
+  background-color: rgba(244, 183, 215, 0.575);
+  color: rgb(255, 255, 255);
+}
+.navbar {
+background-color: rgba(244, 183, 215, 0.808);
+}
+.nav-link.active {
+  font-weight: 600;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.6rem;
+}
