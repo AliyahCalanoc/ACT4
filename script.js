@@ -72,9 +72,6 @@ document.getElementById("color_button")?.addEventListener("click", function () {
   this.style.transform = "scale(1.1)";
 });
 
-// ================================
-// 🎵 Background Music Controls
-// ================================
 const music = document.getElementById("bg-music");
 const musicBtn = document.getElementById("music-btn");
 
